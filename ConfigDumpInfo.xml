@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog.Контрагенты" id="6f894a2a-155e-439b-a8f3-e366f6b318de" configVersion="312cf43421e69d4d9c5229560a26f53400000000">
+			<Metadata name="Catalog.Контрагенты.Attribute.ИНН" id="30f6283e-c8e4-4d14-a4b0-8e2f9b3cd9e6"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.ПолноеНаименованиеКонтрагента" id="6a1ea147-d911-4bb7-839c-4a88d2d29006"/>
+		</Metadata>
+		<Metadata name="Catalog.Контрагенты.Predefined" id="6f894a2a-155e-439b-a8f3-e366f6b318de.1c" configVersion="266f56d216c0b9428e5266e4670bbe3f00000000"/>
+		<Metadata name="Catalog.Номенклатура" id="97ca6828-3911-44f4-a745-62efc721f6c4" configVersion="2c1474300c2b174c8d9de067107780cb00000000"/>
+		<Metadata name="Catalog.Подразделения" id="f3d36434-0707-42a4-913a-312b5e072bee" configVersion="819a66c640f5da4cb34513fac3a55ed100000000"/>
+		<Metadata name="Catalog.Сотрудники" id="d7ca4289-1b1d-444b-b048-1322ff07d29f" configVersion="c10f2863be5a204aab16baa99c1e135800000000">
+			<Metadata name="Catalog.Сотрудники.Attribute.Подразделение" id="3734553c-bc29-44cd-84db-8af3e67f9b02"/>
+		</Metadata>
+		<Metadata name="Catalog.Сотрудники.Predefined" id="d7ca4289-1b1d-444b-b048-1322ff07d29f.1c" configVersion="b33857a1fe849b4c896a1234ce43562d00000000"/>
+		<Metadata name="Configuration.demo" id="644de5c2-ad90-4b41-b3d3-c23ae38b71f3" configVersion="a5a763a10aac9d4d8ed00f7334d8fb4e00000000"/>
+		<Metadata name="Configuration.demo.ClientApplicationInterface" id="d2254c66-148a-452f-82c0-e9f13263c76c.b" configVersion="8065f11d31ec864dbb8f842fa39822e900000000"/>
+		<Metadata name="Constant.ГенеральныйДиректор" id="80ac28af-be1d-4738-9128-7d49b2c74bb8" configVersion="9d099bae98473548a970bd6ca052ec1f00000000"/>
+		<Metadata name="Constant.ИНН" id="671f3455-6c0f-455a-b751-65ea08509f99" configVersion="e4f5f608c91f9c408b04a46c6ce166e700000000"/>
+		<Metadata name="Constant.НазваниеОрганизации" id="5276c6cf-a9d2-43d8-b56a-7fc772cc8018" configVersion="b786bf7726def14bb01fc95215ee399500000000"/>
+		<Metadata name="Language.Русский" id="276f9e81-2e53-45f7-b863-7fbaabd39eab" configVersion="096416d93b08154f9220691a7279f84900000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
