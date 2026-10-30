@@ -257,6 +257,12 @@
 			<Catalog>Подразделения</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Сотрудники</Catalog>
+			<Catalog>ДоговорыСКонтрагентами</Catalog>
+			<Catalog>УчебныеУчреждения</Catalog>
+			<Catalog>Специальности</Catalog>
+			<Enum>ВидПриемаНаРаботу</Enum>
+			<Enum>КачествоНоменклатуры</Enum>
+			<Enum>ПроисхождениеНоменклатуры</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
