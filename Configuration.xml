@@ -260,9 +260,14 @@
 			<Catalog>ДоговорыСКонтрагентами</Catalog>
 			<Catalog>УчебныеУчреждения</Catalog>
 			<Catalog>Специальности</Catalog>
+			<Catalog>Скидки</Catalog>
+			<Catalog>Склады</Catalog>
+			<Document>ПриобретенияТоваровИУслуг</Document>
+			<Document>РеализацииТоваровИУслуг</Document>
 			<Enum>ВидПриемаНаРаботу</Enum>
 			<Enum>КачествоНоменклатуры</Enum>
 			<Enum>ПроисхождениеНоменклатуры</Enum>
+			<AccumulationRegister>ОстаткиНаСкладах</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

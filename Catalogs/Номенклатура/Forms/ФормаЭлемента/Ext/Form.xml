@@ -11,6 +11,9 @@
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
+	<Events>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="Группа1" id="24">
 			<Representation>None</Representation>
@@ -53,6 +56,12 @@
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ОсновнаяСкидка" id="28">
+			<DataPath>Объект.ОсновнаяСкидка</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОсновнаяСкидкаКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ОсновнаяСкидкаРасширеннаяПодсказка" id="30"/>
 		</InputField>
 		<UsualGroup name="Группа2" id="26">
 			<Representation>None</Representation>
