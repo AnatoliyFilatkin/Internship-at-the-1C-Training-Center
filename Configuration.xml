@@ -262,6 +262,7 @@
 			<Catalog>Специальности</Catalog>
 			<Catalog>Скидки</Catalog>
 			<Catalog>Склады</Catalog>
+			<Catalog>СтавкиНДС</Catalog>
 			<Document>ПриобретенияТоваровИУслуг</Document>
 			<Document>РеализацииТоваровИУслуг</Document>
 			<Enum>ВидПриемаНаРаботу</Enum>

@@ -109,10 +109,31 @@
 						<Event name="OnChange">ТоварыЦенаПриИзменении</Event>
 					</Events>
 				</InputField>
-				<InputField name="ТоварыСумма" id="41">
-					<DataPath>Объект.Товары.Сумма</DataPath>
+				<InputField name="ТоварыНДС" id="44">
+					<DataPath>Объект.Товары.НДС</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<FooterDataPath>Объект.Товары.TotalСумма</FooterDataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТоварыНДСКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ТоварыНДСРасширеннаяПодсказка" id="46"/>
+				</InputField>
+				<InputField name="ТоварыИтогоНДС" id="47">
+					<DataPath>Объект.Товары.ИтогоНДС</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТоварыИтогоНДСКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="ТоварыИтогоНДСРасширеннаяПодсказка" id="49"/>
+				</InputField>
+				<InputField name="ТоварыСуммаСНДС" id="50">
+					<DataPath>Объект.Товары.СуммаСНДС</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТоварыСуммаСНДСКонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="ТоварыСуммаСНДСРасширеннаяПодсказка" id="52"/>
+				</InputField>
+				<InputField name="СуммаБезНДС" id="41">
+					<DataPath>Объект.Товары.СуммаБезНДС</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<FooterDataPath>Объект.Товары.TotalСуммаБезНДС</FooterDataPath>
 					<FooterText>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -120,8 +141,8 @@
 						</v8:item>
 					</FooterText>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ТоварыСуммаКонтекстноеМеню" id="42"/>
-					<ExtendedTooltip name="ТоварыСуммаРасширеннаяПодсказка" id="43"/>
+					<ContextMenu name="СуммаБезНДСКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="СуммаБезНДСРасширеннаяПодсказка" id="43"/>
 				</InputField>
 			</ChildItems>
 		</Table>

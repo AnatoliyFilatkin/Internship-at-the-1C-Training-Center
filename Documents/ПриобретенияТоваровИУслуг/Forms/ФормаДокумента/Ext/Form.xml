@@ -140,10 +140,23 @@
 						<Event name="OnChange">ТоварыЦенаПриИзменении</Event>
 					</Events>
 				</InputField>
-				<InputField name="ТоварыСумма" id="41">
-					<DataPath>Объект.Товары.Сумма</DataPath>
+				<LabelField name="ТоварыНДС" id="46">
+					<DataPath>Объект.Товары.НДС</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<FooterDataPath>Объект.Товары.TotalСумма</FooterDataPath>
+					<Width>4</Width>
+					<ContextMenu name="ТоварыНДСКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="ТоварыНДСРасширеннаяПодсказка" id="48"/>
+				</LabelField>
+				<LabelField name="ТоварыИтогоНДС" id="49">
+					<DataPath>Объект.Товары.ИтогоНДС</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТоварыИтогоНДСКонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="ТоварыИтогоНДСРасширеннаяПодсказка" id="51"/>
+				</LabelField>
+				<InputField name="ТоварыСумма" id="41">
+					<DataPath>Объект.Товары.СуммаСНДС</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<FooterDataPath>Объект.Товары.TotalСуммаСНДС</FooterDataPath>
 					<FooterText>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
