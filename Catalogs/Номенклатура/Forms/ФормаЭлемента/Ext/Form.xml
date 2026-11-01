@@ -28,7 +28,7 @@
 					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
 				</InputField>
 				<CheckBoxField name="Услуга" id="10">
-					<DataPath>Объект.Услуга</DataPath>
+					<DataPath>1/0:991e5e70-b781-46a2-922f-853e88458a0a</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="УслугаКонтекстноеМеню" id="11"/>
@@ -56,6 +56,18 @@
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ВидНоменклатуры" id="31">
+			<DataPath>Объект.ВидНоменклатуры</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВидНоменклатурыКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="ВидНоменклатурыРасширеннаяПодсказка" id="33"/>
+		</InputField>
+		<InputField name="ЕдиницаИзмерения" id="34">
+			<DataPath>Объект.ЕдиницаИзмерения</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ЕдиницаИзмеренияКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="ЕдиницаИзмеренияРасширеннаяПодсказка" id="36"/>
 		</InputField>
 		<InputField name="ОсновнаяСкидка" id="28">
 			<DataPath>Объект.ОсновнаяСкидка</DataPath>

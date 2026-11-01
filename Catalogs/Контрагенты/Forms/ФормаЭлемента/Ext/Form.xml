@@ -4,13 +4,27 @@
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<ChildItems>
-		<InputField name="Код" id="1">
-			<DataPath>Объект.Code</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
-			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
-		</InputField>
+		<UsualGroup name="Группа2" id="26">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="27"/>
+			<ChildItems>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="ИНН" id="10">
+					<DataPath>Объект.ИНН</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ИННКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="ИННРасширеннаяПодсказка" id="12"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
 		<InputField name="Наименование" id="4">
 			<DataPath>Объект.Description</DataPath>
 			<EditMode>EnterOnInput</EditMode>
@@ -21,20 +35,6 @@
 				<Event name="OnChange">НаименованиеПриИзменении</Event>
 			</Events>
 		</InputField>
-		<InputField name="Родитель" id="7">
-			<DataPath>Объект.Parent</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
-			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
-		</InputField>
-		<InputField name="ИНН" id="10">
-			<DataPath>Объект.ИНН</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ИННКонтекстноеМеню" id="11"/>
-			<ExtendedTooltip name="ИННРасширеннаяПодсказка" id="12"/>
-		</InputField>
 		<InputField name="ПолноеНаименованиеКонтрагента" id="13">
 			<DataPath>Объект.ПолноеНаименованиеКонтрагента</DataPath>
 			<EditMode>EnterOnInput</EditMode>
@@ -42,6 +42,47 @@
 			<ContextMenu name="ПолноеНаименованиеКонтрагентаКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="ПолноеНаименованиеКонтрагентаРасширеннаяПодсказка" id="15"/>
 		</InputField>
+		<InputField name="Родитель" id="7">
+			<DataPath>Объект.Parent</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<Pages name="Группа1" id="22">
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="23"/>
+			<ChildItems>
+				<Page name="КонтактныеДанные" id="24">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контактные данные</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контактные данные</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="КонтактныеДанныеРасширеннаяПодсказка" id="25"/>
+					<ChildItems>
+						<InputField name="Телефон" id="16">
+							<DataPath>Объект.Телефон</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТелефонКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ТелефонРасширеннаяПодсказка" id="18"/>
+						</InputField>
+						<InputField name="ЭлектроннаяПочта" id="19">
+							<DataPath>Объект.ЭлектроннаяПочта</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ЭлектроннаяПочтаКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ЭлектроннаяПочтаРасширеннаяПодсказка" id="21"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
